@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>An interactive addon for Discord.Net.</Description>
+    <Copyright>2020 Shane4368</Copyright>
+    <Version>1.0.0</Version>
+    <RepositoryUrl>git://github.com/Shane4368/Discord.Addons.ShaneInteractive</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>discord.net;collectors;pagination</PackageTags>
+    <PackageProjectUrl>https://github.com/Shane4368/Discord.Addons.ShaneInteractive</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Authors>Shane4368</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Net.Commands" Version="2.2.0" />
+    <PackageReference Include="Discord.Net.WebSocket" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
